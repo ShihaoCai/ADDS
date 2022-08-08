@@ -1,18 +1,13 @@
 #include "Referee.h"
 
-Referee::Referee()
-{
-    
-}
-
-Referee::refGame(Human H, Computer C)
+char Referee::refGame(Human H, Computer C)
 {
     int totalMoves = H.totalMoves;
 	for (int i = 0; i < totalMoves;i++)
 	{
 		char winner = 'T';
-		char humanMove = H.move();
-		char compMove = C.move();
+		char humanMove = H.makeMove();
+		char compMove = C.makeMove();
 		if (humanMove=='R')
 		{
 			if(compMove == 'S')
@@ -48,5 +43,6 @@ Referee::refGame(Human H, Computer C)
 		}
 		cout<<winner<<" ";
 	}
-	cout<<endl;
+		cout<<endl;
+		return 0;
 }
