@@ -1,8 +1,10 @@
 #include "Human.h"
+#include <iostream>
+using namespace std;
 
 Human::Human()
 {
-    cin>>totalMoves;
+    std::cin>>totalMoves;
 	moves = new char [totalMoves];
 	
 	for(int i = 0 ; i<totalMoves;i++)

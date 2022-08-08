@@ -1,12 +1,13 @@
-#include <iostream>
-#include <string>
+#ifndef REFEREE_H
+#define REFEREE_H
 #include "Human.cpp"
 #include "Computer.cpp"
 
-using namespace std;
 
 class Referee
 {
 public:
     char refGame(Human H, Computer C);
 };
+
+#endif

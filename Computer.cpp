@@ -3,7 +3,7 @@
 Computer::Computer()
 {
     
-}
+};
 
 char Computer::makeMove()
 {

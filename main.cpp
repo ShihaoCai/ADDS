@@ -1,7 +1,7 @@
 #include<iostream>
-#include "Human.cpp"
-#include "Computer.cpp"
-#include "Referee.cpp"
+#include "Human.h"
+#include "Computer.h"
+#include "Referee.h"
 
 using namespace std;
 
