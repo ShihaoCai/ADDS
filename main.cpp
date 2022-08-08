@@ -5,12 +5,13 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
    Human H;
    Computer C;
    Referee R;
 
-   R.competition( H, C );
+   R.refGame(H, C);
 
    return 0;
 }
